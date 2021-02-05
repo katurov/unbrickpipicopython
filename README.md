@@ -36,4 +36,4 @@ So how does Pico stores files for python?
 
 ## It was fun
 
-Well, I make it brick right in 11th minute of the very first try. I tried to find a solution in internet but wasn't succeed. So I've documenter what found in next 40 minutes. It was FUN!
+Well, I make it brick right in 11th minute of the very first try. I tried to find a solution in internet but wasn't succeed. So I've documented what found in next 40 minutes. It was FUN!
