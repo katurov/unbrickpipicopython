@@ -14,6 +14,12 @@ Well, if Pico works with **any** other program, the thing is in code of python i
 
 So how does Pico stores files for python?
 
+## Fast and bored solution
+
+Well, if You will scroll down the page "[Getting started with Pico](https://www.raspberrypi.org/documentation/pico/getting-started/)" you will found uf2 for Resetting Flash memory. 
+
+OR you can read below
+
 ## Tools
 
 1. Go to [picotool](https://github.com/raspberrypi/picotool) and install it (you can find detailed instruction in [Pico books](https://www.raspberrypi.org/documentation/pico/getting-started/))
