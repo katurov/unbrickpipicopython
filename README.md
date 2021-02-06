@@ -27,7 +27,7 @@ So how does Pico stores files for python?
 3. Use `picotool info -a` and find address info of `embedded drive`, in my case `embedded drive:  0x100a0000-0x10200000 (1408K): MicroPython`
 4. Lets dump it using `picotool save -r 0x100a0000 0x10200000 ~/Desktop/pico.bin` this will give us 1441792 bytes file
 5. Make copy: `cp ~/Desktop/pico.bin ~/Desktop/pico.bak` just for a case
-6. Open .bin file in HEX viewer to be sure you see something like 6C69 7474 6C65 6673 2FE0 (which is `littlefs/`)
+6. Open .bin file in HEX viewer to be sure you see something like 6C69 7474 6C65 6673 2FE0 (which is `littlefs/` [btw](https://github.com/littlefs-project/littlefs))
 7. Scroll through file to find **your wrong** code
 8. Simple edit your code, may be overwriting first letters of each row with hash (# is 23 in HEX) OR do as I did: put FF instead whole code
 9. Save binary file and check its size (must be same!)
@@ -37,3 +37,7 @@ So how does Pico stores files for python?
 ## It was fun
 
 Well, I make it brick right in 11th minute of the very first try. I tried to find a solution in internet but wasn't succeed. So I've documented what found in next 40 minutes. It was FUN!
+
+## The ticket
+
+[Posted here](https://github.com/micropython/micropython/issues/6853)
